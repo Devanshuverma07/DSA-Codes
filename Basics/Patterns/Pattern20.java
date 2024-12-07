@@ -2,6 +2,19 @@ package Basics.Patterns;
 
 import java.util.Scanner;
 
+/*
+ OUTPUT:
+
+Enter the number of rows:
+5
+A B C D E 
+A B C D 
+A B C 
+A B 
+A
+
+ */
+
 public class Pattern20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);  
