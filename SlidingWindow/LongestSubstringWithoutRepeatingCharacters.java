@@ -5,6 +5,24 @@ import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 
+    //BRUTE FORCE
+        // int n = s.length();
+        // int maxLength=0;
+
+        // for(int i =0; i<n;i++){
+        //     Set<Character> set = new HashSet<>();
+        //     for(int j = 0; j<n; j++){
+        //         char currentChar = s.charAt(j);
+
+        //         if(set.contains(currentChar)){
+        //             break;
+        //         }
+        //         set.add(currentChar);
+
+        //         maxLength = Math.max(maxLength, j-i+1);
+        //     }
+        // }
+        // return maxLength;
 
     // Method to find the length of the longest substring without repeating characters
     public int lengthOfLongestSubstring(String s) {
